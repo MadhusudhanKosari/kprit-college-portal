@@ -1,9 +1,11 @@
+import DashboardLayout from "../components/DashboardLayout";
+
 function StudentDashboard() {
   return (
-    <div>
-      <h1>Student Dashboard</h1>
-      <p>Welcome Student</p>
-    </div>
+    <DashboardLayout role="student">
+      <h2>Student Dashboard</h2>
+      <p>Welcome to your dashboard</p>
+    </DashboardLayout>
   );
 }
 

@@ -1,9 +1,11 @@
+import DashboardLayout from "../components/DashboardLayout";
+
 function FacultyDashboard() {
   return (
-    <div>
-      <h1>Faculty Dashboard</h1>
-      <p>Welcome Faculty</p>
-    </div>
+    <DashboardLayout role="faculty">
+      <h2>Faculty Dashboard</h2>
+      <p>Welcome to your dashboard</p>
+    </DashboardLayout>
   );
 }
 

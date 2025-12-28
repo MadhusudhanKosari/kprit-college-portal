@@ -1,9 +1,11 @@
+import DashboardLayout from "../components/DashboardLayout";
+
 function ParentDashboard() {
   return (
-    <div>
-      <h1>Parent Dashboard</h1>
-      <p>Welcome Parent</p>
-    </div>
+    <DashboardLayout role="parent">
+      <h2>Parent Dashboard</h2>
+      <p>Welcome to your dashboard</p>
+    </DashboardLayout>
   );
 }
 
