@@ -1,10 +1,12 @@
 import DashboardLayout from "../components/DashboardLayout";
+import StudentProfile from "../components/StudentProfile";
 
 function StudentDashboard() {
+  const user = JSON.parse(localStorage.getItem("user"));
+
   return (
     <DashboardLayout role="student">
-      <h2>Student Dashboard</h2>
-      <p>Welcome to your dashboard</p>
+      <StudentProfile user={user} />
     </DashboardLayout>
   );
 }
